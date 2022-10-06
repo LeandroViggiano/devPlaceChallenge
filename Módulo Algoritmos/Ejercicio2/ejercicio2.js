@@ -14,6 +14,7 @@ var contrasena = "2";
 var contrasena1;
 var intentos = 0;
 var resultado;
+var cerrar=false;
 
 
 boton.addEventListener("click", function () {
@@ -37,12 +38,12 @@ boton.addEventListener("click", function () {
   if (contrasena === contrasena1) {
     resultado.innerHTML = "Felicitaciones, recordás tu contraseña";
     center.removeChild(boton);
-
+    cerrar=true
   }
   if (intentos === 3) {
     resultado.innerHTML = "Tenes que ejercitar la memoria";
     center.removeChild(boton);
-
+    cerrar=true
   }
   boton.setAttribute(
   "onclick",
