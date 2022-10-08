@@ -49,6 +49,5 @@ boton.addEventListener("click", function () {
   "onclick",
   "document.getElementById('contrasena').value = ''"
 );
-console.log("0: "+contrasena);
-console.log("1: "+contrasena1);
+
 });
