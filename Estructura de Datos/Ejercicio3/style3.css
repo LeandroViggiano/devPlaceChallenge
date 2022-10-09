@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  
+  margin: 0;
+}
+.formulario {
+  background-color: transparent;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #212121;
+  padding: 2%;
+  color: white;
+  border-radius: 70px;
+}
+
+h2 {
+  padding: 1%;
+  color: white;
+  background-color: #212121;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 70px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+}
